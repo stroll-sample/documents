@@ -4,7 +4,7 @@ http请求 [跳转连接](./HTTP.md)
 
 indexedDB使用 [跳转连接](./indexedDB.md)
 
-发布订阅 [跳转连接](./SP.md)
+发布订阅 [跳转连接](./PS.md)
 
 webRTC [跳转连接](./webRTC.md)
 
