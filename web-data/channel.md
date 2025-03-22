@@ -4,7 +4,7 @@ indexedDB使用 [跳转连接](./indexedDB.md)
 
 多线程 worker [跳转连接](./worker.md)
 
-发布订阅 [跳转连接](./SP.md)
+发布订阅 [跳转连接](./PS.md)
 
 webRTC [跳转连接](./webRTC.md)
 
