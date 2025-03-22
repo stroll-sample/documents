@@ -4,7 +4,7 @@ http请求 [跳转连接](./HTTP.md)
 
 长链接 socket [跳转连接](./socket.md)
 
-发布订阅 [跳转连接](./SP.md)
+发布订阅 [跳转连接](./PS.md)
 
 多线程 worker [跳转连接](./worker.md)
 
