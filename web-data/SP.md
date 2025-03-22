@@ -13,11 +13,11 @@ indexedDB使用 [跳转连接](./indexedDB.md)
 引入
 
 ```js
-import { SP, PubSub } from "@stroll/data";
+import { PS, PubSub } from "@stroll/data";
 // or
-import SP, { SP , PubSub} from "@stroll/data/dist/SP";
+import PS, { PS , PubSub} from "@stroll/data/dist/PS";
 ```
- - SP 是单例模式
+ - PS 是单例模式
  - PubSub 是封装的 class，可以实例化，也可以直接使用，也可以生成单例。
 
 调用
@@ -28,23 +28,23 @@ function callbackFn (res) {
   // ......
 }
 
-// SP 单例模式 可以直接使用
+// PS 单例模式 可以直接使用
 
 /** 订阅
  * @param eventType 事件类型
  * @param listener 回调函数
  */
-SP.on("test", callbackFn)
+PS.on("test", callbackFn)
 /** 推送消息
  * @param {string} eventType 事件类型
  * @param {any} data 事件数据
  */
-SP.pushMsg("test", "hello");
+PS.pushMsg("test", "hello");
 /** 取消订阅事件
  * @param eventType 事件类型
  * @param listener 订阅的事件
  */
-SP.off("test", callbackFn)
+PS.off("test", callbackFn)
 
 // PubSub 是 class
 // 可以静态调用
