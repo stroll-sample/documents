@@ -1,5 +1,3 @@
-http请求 [跳转连接](./HTTP.md)
-
 indexedDB使用 [跳转连接](./indexedDB.md)
 
 长链接 socket [跳转连接](./socket.md)
