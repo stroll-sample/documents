@@ -1,6 +1,6 @@
 ### 安装
 ````js
-npm i -S @stroll/data
+npm i -S @stroll/http
 ````
 ### 引入
 ```js
