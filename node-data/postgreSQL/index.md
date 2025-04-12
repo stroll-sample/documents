@@ -21,7 +21,7 @@ worker [跳转连接](./worker.md)
 引入
 
 ```js
-import { PG } from "@stroll/node-data";
+import { PG } from "@stroll/db";
 // or
-import PG from "@stroll/node-data/dist/PG";
+import PG from "@stroll/db/dist/PG";
 ```
