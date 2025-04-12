@@ -21,9 +21,9 @@ worker [跳转连接](./worker.md)
 引入
 
 ```js
-import { Mongodb } from "@stroll/node-data";
+import { Mongodb } from "@stroll/db";
 // or
-import Mongodb from "@stroll/node-data/dist/mongodb";
+import Mongodb from "@stroll/db/dist/mongodb";
 ```
 
 调用
