@@ -20,9 +20,9 @@ worker [跳转连接](./worker.md)
 
 引入
 ```js
-import {Redis} from '@stroll/node-data'
+import {Redis} from '@stroll/db'
 // or
-import Redis from '@stroll/node-data/dist/redis'
+import Redis from '@stroll/db/dist/redis'
 ```
 调用
 ```js
